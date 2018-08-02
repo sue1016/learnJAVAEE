@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test.html</title>
+</head>
+<body>
+<form action="/learnServlet/servlet/helloservlet">
+    <input type=submit" value="Test..."/>
+    <!-- button并没有提交表单的功能，但是因为那个函数，也可提交表单 -->
+    <input type="button" value="Click me" onclick="test()";>
+</form>
+
+<hr>
+
+<a href="/learnServlet/servlet/helloservlet">Link...</a>
+
+<script type="text/javascript">
+    function test(){
+        var f = document.forms[0];//拿到第一个form表单
+        f.action="/learnServlet/servlet/helloservlet"
+        f.submit();
+    }
+</script>
+</body>
+</html>

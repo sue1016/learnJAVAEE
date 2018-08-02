@@ -1,10 +1,4 @@
-# learnServlet
-
-## web工程结构  
-<img src = "https://s26.postimg.cc/43wgj1r6h/2018-08-02_1.17.59.png">
-<img src = "https://s26.postimg.cc/xj24s1o09/2018-08-02_1.14.03.png">  
-
-## Servlet简介  
+# Servlet简介
 ### Servlet的功能  
 
 <img src = "https://s26.postimg.cc/z0nl3qxxl/2018-08-02_1.37.32.png">  
@@ -19,10 +13,17 @@
 ### Servlet实例  
 
 在本子目录ServletDemo里   
+<img src = "https://s26.postimg.cc/ydooe20zt/2018-08-02_3.05.19.png">  
+
+##### 三种调用方式
+* url映射的方式  
+* 表单的方式（最常用）  
+* 超链接(次常用)
+* js脚本（次次）
 
 ##### 遇到的问题和解决      
 
-* [idea中给HttpServlet导入jar包][1]    
+* [idea中给HttpServlet导入jar包][1]      
 * [servlet报错HTTP method GET is not supported by this URL][2]
  
 
